@@ -16,23 +16,23 @@
 <!-- PROJECT LOGO -->
 <br />
 <div align="center">
-  <a href="https://github.com/joelcalm/RandomForest">
-    <img src="img/rficon.png" alt="Logo" width="80" height="80">
+  <a href="https://github.com/joelcalm/Final-Assignment-Python-Project-for-Data-Science">
+    <img src="iconibm.png" alt="Logo" width="200" height="90">
   </a>  
 
-  <h3 align="center">Random Forest</h3>
+  <h3 align="center">Final Assignment Python Project for Data Science</h3>
 
   <p align="center">
-    This project showcases the implementation and evaluation of Random Forest algorithms for classification, regression, and anomaly detection across various datasets like Iris and MNIST.
+    Final project IBM Data Analyst course. Extracting and Visualizing Stock Data for Effective Decision Making.
     <br />
-    <a href="https://github.com/joelcalm/RandomForest"><strong>Explore the docs »</strong></a>
+    <a href="https://github.com/joelcalm/Final-Assignment-Python-Project-for-Data-Science"><strong>Explore the docs »</strong></a>
     <br />
     <br />
-    <a href="https://github.com/joelcalm/RandomForest">View Demo</a>
+    <a href="https://github.com/joelcalm/Final-Assignment-Python-Project-for-Data-Science">View Demo</a>
     ·
-    <a href="https://github.com/joelcalm/RandomForest/issues">Report Bug</a>
+    <a href="https://github.com/joelcalm/Final-Assignment-Python-Project-for-Data-Science/issues">Report Bug</a>
     ·
-    <a href="https://github.com/joelcalm/RandomForest/issues">Request Feature</a>
+    <a href="https://github.com/joelcalm/Final-Assignment-Python-Project-for-Data-Science/issues">Request Feature</a>
   </p>
 </div>
 
@@ -42,20 +42,13 @@
 <details>
   <summary>Table of Contents</summary>
   <ol>
-    <li>
-      <a href="#about-the-project">About The Project</a>
-      <ul>
-        <li><a href="#built-with">Built With</a></li>
-      </ul>
-    </li>
-    <li>
-      <a href="#getting-started">Getting Started</a>
-      <ul>
-        <li><a href="#installation">Installation</a></li>
-      </ul>
-    </li>
-    <li><a href="#usage">Usage</a></li>
-    <li><a href="#contact">Contact</a></li>
+    <li><a href="#about-the-project">Define a Function that Makes a Graph</a></li>
+    <li><a href="#getting-started">Question 1: Use yfinance to Extract Stock Data</a></li>
+    <li><a href="#usage">Question 2: Use Webscraping to Extract Tesla Revenue Data</a></li>
+    <li><a href="#contact">Question 3: Use yfinance to Extract Stock Data</a></li>
+    <li><a href="#usage">Question 4: Use Webscraping to Extract GME Revenue Data</a></li>
+    <li><a href="#contact">Question 5: Plot Tesla Stock Graph</a></li>
+    <li><a href="#contact">Question 6: Plot GameStop Stock Graph</a></li>
   </ol>
 </details>
 
@@ -64,9 +57,7 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-![product-screenshot]
-
-[Image][product-screenshot]
+Extracting essential data from a dataset and displaying it is a necessary part of data science; therefore individuals can make correct decisions based on the data. In this assignment, you will extract some stock data, you will then display this data in a graph.
 
 
 <p align="right">(<a href="#top">back to top</a>)</p>
@@ -75,58 +66,12 @@
 
 ### Built With
 
-* [scikit-learn](https://scikit-learn.org/)
-* [Numpy](https://numpy.org/)
+* [yfinance](https://pypi.org/project/yfinance/)
+* [bs4](https://pypi.org/project/beautifulsoup4/)
 * [Pandas](https://pandas.pydata.org/)
-* [Logging](https://docs.python.org/3/library/logging.html)
-* [Matplotlib](https://matplotlib.org/)
+* [nbformat](https://pypi.org/project/nbformat/)
 
 <p align="right">(<a href="#top">back to top</a>)</p>
-
-
-<!-- GETTING STARTED -->
-## Getting Started
-
-
-### Installation
-
-
-First, clone the repository:
-   ```sh
-   git clone https://github.com/joelcalm/RandomForest.git
-   ```
-Access to the project folder with:
-  ```sh
-  cd RandomForest
-  ```
-
-We will create a virtual environment with `python3`
-* Create environment with python 3 
-    ```sh
-    python3 -m venv venv
-    ```
-    
-* Enable the virtual environment
-    ```sh
-    source venv/bin/activate
-    ```
-
-* Install the python dependencies on the virtual environment
-    ```sh
-    pip install -r requirements.txt
-    ```
-
-<p align="right">(<a href="#top">back to top</a>)</p>
-
-## Usage
-
-Run the different main files:
-* `main_creditcard.py`
-* `main_dataset.py`
-* `main_iris.py`
-* `main_mnist.py`
-* `main_mnistISO.py`
-* `main_temp.py`
 
 
 
@@ -135,7 +80,7 @@ Run the different main files:
 
 Joel Calm  - [@joel-calm](https://www.linkedin.com/in/joel-calm/) - joelcalm44@gmail.com
 
-Project Link: [https://github.com/joelcalm/RandomForest](https://github.com/joelcalm/RandomForest)
+Project Link: [https://github.com/joelcalm/Final-Assignment-Python-Project-for-Data-Science](https://github.com/joelcalm/Final-Assignment-Python-Project-for-Data-Science)
 
 
 <p align="right">(<a href="#top">back to top</a>)</p>
@@ -144,16 +89,16 @@ Project Link: [https://github.com/joelcalm/RandomForest](https://github.com/joel
 
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
-[contributors-shield]: https://img.shields.io/github/contributors/joelcalm/RandomForest.svg?style=for-the-badge
-[contributors-url]: https://github.com/joelcalm/RandomForest/graphs/contributors
+[contributors-shield]: https://img.shields.io/github/contributors/joelcalm/Final-Assignment-Python-Project-for-Data-Science.svg?style=for-the-badge
+[contributors-url]: https://github.com/joelcalm/Final-Assignment-Python-Project-for-Data-Science/graphs/contributors
 [forks-shield]: https://img.shields.io/github/forks/puchee99/PytorchClassifier.svg?style=for-the-badge
-[forks-url]: https://github.com/joelcalm/RandomForest/network/members
-[stars-shield]: https://img.shields.io/github/stars/joelcalm/RandomForest.svg?style=for-the-badge
-[stars-url]: https://github.com/joelcalm/RandomForest/stargazers
-[issues-shield]: https://img.shields.io/github/issues/joelcalm/RandomForest.svg?style=for-the-badge
-[issues-url]: https://github.com/joelcalm/RandomForest/issues
-[license-shield]: https://img.shields.io/github/license/joelcalm/RandomForest.svg?style=for-the-badge
-[license-url]: https://github.com/joelcalm/RandomForest/blob/main/LICENSE.txt
+[forks-url]: https://github.com/joelcalm/Final-Assignment-Python-Project-for-Data-Science/network/members
+[stars-shield]: https://img.shields.io/github/stars/joelcalm/Final-Assignment-Python-Project-for-Data-Science.svg?style=for-the-badge
+[stars-url]: https://github.com/joelcalm/Final-Assignment-Python-Project-for-Data-Science/stargazers
+[issues-shield]: https://img.shields.io/github/issues/joelcalm/Final-Assignment-Python-Project-for-Data-Science.svg?style=for-the-badge
+[issues-url]: https://github.com/joelcalm/Final-Assignment-Python-Project-for-Data-Science/issues
+[license-shield]: https://img.shields.io/github/license/joelcalm/Final-Assignment-Python-Project-for-Data-Science.svg?style=for-the-badge
+[license-url]: https://github.com/joelcalm/Final-Assignment-Python-Project-for-Data-Science/blob/main/LICENSE.txt
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
 [linkedin-url]: https://www.linkedin.com/in/joel-calm/
 [product-screenshot]: img/figures.png
