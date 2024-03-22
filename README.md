@@ -38,27 +38,23 @@
 
 
 
-<!-- TABLE OF CONTENTS -->
-<details>
-  <summary>Table of Contents</summary>
-  <ol>
-    <li><a href="#about-the-project">Define a Function that Makes a Graph</a></li>
-    <li><a href="#getting-started">Question 1: Use yfinance to Extract Stock Data</a></li>
-    <li><a href="#usage">Question 2: Use Webscraping to Extract Tesla Revenue Data</a></li>
-    <li><a href="#contact">Question 3: Use yfinance to Extract Stock Data</a></li>
-    <li><a href="#usage">Question 4: Use Webscraping to Extract GME Revenue Data</a></li>
-    <li><a href="#contact">Question 5: Plot Tesla Stock Graph</a></li>
-    <li><a href="#contact">Question 6: Plot GameStop Stock Graph</a></li>
-  </ol>
-</details>
-
-
-
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
 Extracting essential data from a dataset and displaying it is a necessary part of data science; therefore individuals can make correct decisions based on the data. In this assignment, you will extract some stock data, you will then display this data in a graph.
 
+<!-- TABLE OF CONTENTS -->
+<h3>Table of Contents</h3>
+<ol>
+  <li><u>Define a Function that Makes a Graph</u></li>
+  <li><u>Question 1: Use yfinance to Extract Stock Data</u></li>
+  <li><u>Question 2: Use Webscraping to Extract Tesla Revenue Data</u></li>
+  <li><u>Question 3: Use yfinance to Extract Stock Data</u></li>
+  <li><u>Question 4: Use Webscraping to Extract GME Revenue Data</u></li>
+  <li><u>Question 5: Plot Tesla Stock Graph</u></li>
+  <li><u>Question 6: Plot GameStop Stock Graph</u></li>
+
+</ol>
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
